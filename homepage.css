@@ -1,0 +1,49 @@
+.centered {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    display: grid;
+    width: 80vw;
+    height: 50vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    grid-gap: 10px;
+}
+
+.one {
+    background-color: salmon;
+
+}
+
+.two {
+    background-color: lightpink;
+}
+
+.three {
+    background-color: tomato;
+
+}
+
+.four {
+    background-color: peru;
+}
+
+.five {
+    background-color: orangered;
+}
+
+.six {
+    background-color: darkred;
+}
+
+
+
